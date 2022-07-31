@@ -5723,6 +5723,15 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/36614940-371f-433e-a135-5668795c783f"
       (reference "D172") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/bd70a0a1-2f09-47bb-a06b-26ddb1a4da53"
+      (reference "D173") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c0a77723-b9ed-4c0f-b3ae-9ac74e4a5409"
+      (reference "D174") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c1a7876f-511c-4659-a17f-b5a2132cca76"
+      (reference "D175") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
     (path "/00000000-0000-0000-0000-00005ef2a974"
       (reference "F1") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
@@ -6476,6 +6485,9 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005ff8ffa1"
       (reference "R121") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f39292d7-8417-44ed-b4ce-5a707b827348"
+      (reference "R122") (unit 1) (value "560") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005ecf9838/10c4349b-39b0-4e9d-9437-b889652c033f"
       (reference "S1") (unit 1) (value "lshift") (footprint "marbastlib-mx:STAB_MX_2.25u")
     )
@@ -6497,11 +6509,23 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/ce03299f-1b2f-4a2f-b247-2a1ac42afa19"
       (reference "S7") (unit 1) (value "np_ent") (footprint "marbastlib-mx:STAB_MX_2u")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/cb5712cc-25ef-4ebc-a0fe-c10d2c176745"
+      (reference "S8") (unit 1) (value "np_+") (footprint "marbastlib-mx:STAB_MX_2u")
+    )
     (path "/00000000-0000-0000-0000-00005e6313b3"
       (reference "SW1") (unit 1) (value "RST") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem")
     )
     (path "/00000000-0000-0000-0000-00005e73ce7f"
       (reference "SW2") (unit 1) (value "BOOT") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/6b302d7f-0889-4c34-b438-a95807df14e6"
+      (reference "SW3") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/befb2faa-7434-4971-9c05-f3d8790e81ab"
+      (reference "SW4") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/37cd19b9-23ad-4144-a38a-d5c8aee0e7f9"
+      (reference "SW5") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005ef1b07d"
       (reference "U1") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
