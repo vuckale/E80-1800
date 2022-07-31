@@ -2084,14 +2084,12 @@
     (uuid fe8d9267-7834-48d6-a191-c8724b2ee78d)
   )
 
-  (no_connect (at 106.68 181.61) (uuid 03f57fb4-32a3-4bc6-85b9-fd8ece4a9592))
   (no_connect (at 106.68 186.69) (uuid 18ca5aef-6a2c-41ac-9e7f-bf7acb716e53))
   (no_connect (at 106.68 130.81) (uuid 24b72b0d-63b8-4e06-89d0-e94dcf39a600))
   (no_connect (at 106.68 140.97) (uuid 4431c0f6-83ea-4eee-95a8-991da2f03ccd))
   (no_connect (at 71.12 163.83) (uuid 528fd7da-c9a6-40ae-9f1a-60f6a7f4d534))
   (no_connect (at 106.68 168.91) (uuid 90e761f6-1432-4f73-ad28-fa8869b7ec31))
   (no_connect (at 41.91 53.34) (uuid a6738794-75ae-48a6-8949-ed8717400d71))
-  (no_connect (at 106.68 179.07) (uuid b78cb2c1-ae4b-4d9b-acd8-d7fe342342f2))
   (no_connect (at 41.91 55.88) (uuid d692b5e6-71b2-4fa6-bc83-618add8d8fef))
   (no_connect (at 71.12 166.37) (uuid e413cfad-d7bd-41ab-b8dd-4b67484671a6))
   (no_connect (at 106.68 184.15) (uuid f9b1563b-384a-447c-9f47-736504e995c8))
@@ -2225,6 +2223,10 @@
   (wire (pts (xy 30.48 119.38) (xy 30.48 110.49))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1f9ae101-c652-4998-a503-17aedf3d5746)
+  )
+  (wire (pts (xy 106.68 179.07) (xy 120.65 179.07))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 269624a1-cf3d-4272-853a-8ee6bf34eec3)
   )
   (wire (pts (xy 223.52 68.58) (xy 233.68 68.58))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2662,6 +2664,10 @@
   (wire (pts (xy 44.45 33.02) (xy 49.53 33.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9b3c58a7-a9b9-4498-abc0-f9f43e4f0292)
+  )
+  (wire (pts (xy 106.68 181.61) (xy 120.65 181.61))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9b4b55e6-31de-4f27-9bdf-e18c8b18c856)
   )
   (polyline (pts (xy 199.39 16.51) (xy 199.39 45.72))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -3199,6 +3205,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "sre_MISO" (shape output) (at 120.65 181.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 180cb4fe-7541-412d-9a2a-940e6baf2e07)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 131.4409 181.6894 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "COL05" (shape output) (at 64.77 135.89 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 19b0959e-a79b-43b2-a5ad-525ced7e9131)
@@ -3281,6 +3294,13 @@
     (uuid 4412226e-d975-40a2-921f-502ff4129a95)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "sre_MOSI" (shape output) (at 120.65 179.07 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 49c3cd07-466e-4256-b3ee-d9edb56d9894)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 131.4409 179.1494 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "COL17" (shape output) (at 64.77 171.45 180) (fields_autoplaced)
@@ -5162,6 +5182,9 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/b8e1725b-29c3-45cd-9fcf-2139f0193454"
       (reference "#PWR028") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/2688b646-f587-4bae-a899-b4f5b43b5058"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005e74efe9"
       (reference "C1") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -5732,6 +5755,9 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/c1a7876f-511c-4659-a17f-b5a2132cca76"
       (reference "D175") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/f84a5507-8f33-4bc4-9eba-8071380ce064"
+      (reference "D176") (unit 1) (value "3mm") (footprint "marbastlib-mx:LED_MX_3mm")
+    )
     (path "/00000000-0000-0000-0000-00005ef2a974"
       (reference "F1") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
@@ -6118,6 +6144,9 @@
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/00000000-0000-0000-0000-00005eddb3e4"
       (reference "MX115") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/a67c7461-8057-4a50-8843-e35b8c7e3efe"
+      (reference "MX116") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/00000000-0000-0000-0000-00005e71adb0"
       (reference "Q1") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -6512,6 +6541,9 @@
     (path "/00000000-0000-0000-0000-00005ecf9838/cb5712cc-25ef-4ebc-a0fe-c10d2c176745"
       (reference "S8") (unit 1) (value "np_+") (footprint "marbastlib-mx:STAB_MX_2u")
     )
+    (path "/00000000-0000-0000-0000-00005ecf9838/0d8c0908-41d6-4e5e-9492-41a142ecf84f"
+      (reference "S9") (unit 1) (value "np_0_2u") (footprint "marbastlib-mx:STAB_MX_2u")
+    )
     (path "/00000000-0000-0000-0000-00005e6313b3"
       (reference "SW1") (unit 1) (value "RST") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem")
     )
@@ -6526,6 +6558,9 @@
     )
     (path "/00000000-0000-0000-0000-00005ecf9838/37cd19b9-23ad-4144-a38a-d5c8aee0e7f9"
       (reference "SW5") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/00000000-0000-0000-0000-00005ecf9838/c8def15a-750c-461f-b6cb-b317c3ce8a69"
+      (reference "SW6") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
     (path "/00000000-0000-0000-0000-00005ef1b07d"
       (reference "U1") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
